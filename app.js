@@ -18,7 +18,8 @@ app.get('/', (req, res) => {
 // Set up a server to listen on port 3000
 const port = 3000;
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on http://localhost:${port}`)
+  
 });
 
 const friends=["254740616615","254792434244", "254743466032"]
